@@ -1,0 +1,201 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+	font-size: 50px;
+}
+.block {
+	background-color: rgb(6, 83, 4);
+	max-width: 700px;
+	margin: 0px auto 25px;
+	text-align: center;
+	padding: 15px;
+	
+}
+span {
+	background-color: yellowgreen;
+	max-width: 900px;
+	display: block;
+	text-align: center;
+	margin: 25px auto;
+}
+.block-2 {
+	font-size: 0px;
+	margin: 25px auto;
+	background-color: rgb(92, 20, 20);
+	max-width: 1550px;
+	padding: 25px;
+	text-align: center;
+}
+.block-2 p {
+	background-color: rgb(69, 147, 199);
+	max-width: 350px;
+	display: inline-block;
+	font-size: 35px;
+	vertical-align: top;
+	padding: 15px;
+}
+.picture {
+	font-size: 25px;
+	background-color: rgba(71, 67, 67, 0.244);
+	padding: 15px;
+}
+.picture__image {
+	float: left;
+	max-width: 450px;
+	margin: 0px 35px 0px 10px;
+}
+.picture__ul {
+	padding-left: px;
+	margin: 0px 15x;
+}
+.item {
+	clear: both;
+}
+.pic-2 {
+	background-color: rgb(122, 119, 119);
+	margin: 15px;
+	padding: 5px;
+	border: 10px dotted rgb(40, 105, 136);
+
+}
+.items-1 {
+	font-size: 20px;
+	display: inline-block;
+	background-color: rgb(114, 50, 50);
+	max-width: 320px;
+	text-align: center;
+}
+.pic-2__city {
+	max-height: 180px;
+}
+.pic-2__castle {
+	max-height: 180px;
+}
+.pic-2__side {
+	max-height: 180px;
+}
+.items {
+	font-size: 2;
+	background-color: rgb(28, 129, 58);
+	float: left;
+	margin: 5px;
+}
+.pic-2 > p {
+	font-size: 30px;
+}
+.border-1 {
+	font-size: 35px;
+	background-color: rgb(12, 112, 116);
+	max-width: max-content;
+	border: 5px solid rgb(124, 156, 103);
+	margin: 15px;
+	padding: 5px;
+	text-align: center;
+}
+.border-2 {
+	font-size: 35px;
+	border: 10px dashed rgb(233, 15, 15);
+	margin: 15px;
+}
+.border-3 {
+	font-size: 35px;
+	margin: 15px;
+	border: 10px dotted rgb(211, 15, 168);
+}
+.border-4 {
+	font-size: 35px;
+	margin: 15px;
+	border: 35px double rgb(26, 204, 20);
+}
+.border-5 {
+	font-size: 35px;
+	margin: 15px;
+	border-right: 5px solid rgb(124, 156, 103);
+	border-bottom: 10px dashed gold;
+	border-left: 7px dotted rgb(33, 106, 134);
+	border-top: 15px double yellowgreen;
+}
+.image-boat,
+.image-house {
+	display: inline-block;
+	margin: 15px;
+}
+.image-boat {
+	box-shadow: 10px -10px 15px 10px rgb(24, 120, 149);
+	max-height: 700px;
+}
+.image-house {
+	max-height: 700px;
+	box-shadow:-10px 7px 7px 3px rgb(133, 129, 129);
+}
+/* .image-side2 {
+	display: ;
+	max-height: 700px;
+	margin: 15px;
+	box-shadow: inset 10px 7px 3px 10px rgb(17, 68, 88);
+} */
+.pic-4 {
+	background-color: rgb(153, 24, 24);
+	font-size: 0;
+	margin: 15px auto;
+	max-width: 600px;
+	/* max-width: 1320px; */
+	padding: 15px;
+	outline: 10px dotted skyblue;
+}
+.image-side2 {
+	max-height: 210px;
+	margin-right: 8px;
+	border-radius: 15px;
+	display: inline-block;
+}
+.pic-4__block {
+	display: inline-block;
+	max-width: 210px;
+	background-color: rgb(96, 138, 19);
+}
+.image-side {
+	max-width: 100%;
+	display: block;
+	margin-bottom: 5px;
+	border-radius: 20px 40px;	
+}
+.image-city {
+	max-width: 100%;
+	display: block;
+	margin-top: 5px;
+	border-radius: 15px 25px 35px 45px;
+}
+.image-ferrari {
+	max-height: 210px;
+	margin-left: 8px;
+	display: inline-block;
+	border-radius: 50%;
+}
